@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: rgb(62, 60, 53);
+}
+nav,
+#menu-checkbox{
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+}
+
+nav a {
+    display: block;
+}
+@media (min-width: 900px) {
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    .hamburger-icon{
+        display: none;
+    }
+}
+.hamburger-icon{
+    color: white;
+}
+.header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    height: 130px;
+    background-color: rgb(34, 44, 44);
+
+    padding-left: 15%;
+    padding-right: 15%;
+}
+nav{
+    padding-right: 10px;
+    top: 130px;
+    background-color: rgb(34, 44, 44);
+}
+.middle-header{
+    white-space: nowrap;
+    margin-top: 80px;
+}
+.right-header{
+    margin-top: 80px;
+}
+.header-text{
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-size: 20px;
+
+    color: rgb(191, 148, 86);
+    text-decoration: none;
+    place-self: center;
+}
+.logo-image{
+    height: 100px;
+    padding-top: 15px;
+}
+.search-icon{
+    color: rgb(191, 148, 86);
+}
+.top-right-footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+footer{
+    background-color: rgb(34, 44, 44);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 50px;
+}
+.footer-nav{
+    text-decoration: none;
+    color: rgb(191, 148, 86);
+}
+.highlighted-info{
+    color: rgb(7, 206, 170);
+}
+.regular-info{
+    color: white;
+}
+.social-media-icons-box{
+    color: white;
+}
+@media (max-width:700px){
+    footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

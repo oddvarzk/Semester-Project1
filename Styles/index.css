@@ -1,0 +1,196 @@
+.front-page-image-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    position: static;
+}
+.front-page-image{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.kids-image{
+    width:350px;
+    height: 280px;
+}
+.teachers-image{
+    width: 350px;
+    height: 280px;
+}
+.researchers-image{
+    width: 350px;
+    height: 280px;
+}
+.discover-box{
+    background-color: rgb(41, 40, 35);
+    color: white;
+    max-width: 350px;
+    height: 450px;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.h1-on-image{
+    position: absolute;
+    top: 150px;
+}
+.text-under-moon{
+    position: absolute;
+    top: auto;
+    margin-top: 100px;
+    color: white;
+
+    font-weight: lighter;
+}
+.buttons-under-text{
+    margin-top: 500px;
+    position: absolute;
+    top: auto;
+}
+.home-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-weight: 300;
+    font-size: medium;
+
+    border: none;
+    border-radius: 15px;
+
+    color: black;
+    background-color: rgb(191, 148, 86);
+}
+.discover-grid-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,400px));
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+.headline-text-box{
+    display: flex;
+    justify-content: center;
+}
+.exhibition-image-1{
+    width: 300px;
+}
+h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.exhibition-spaces-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(600px,200px));
+    justify-content: space-between;
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+.exhibition-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(41, 40, 35);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media (max-width:600px){
+    .exhibition-box{
+        grid-template-columns: 1fr;
+        max-width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-box{
+        display: flex;
+        justify-content: center;
+    }
+    .exhibition-spaces-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .discover-box{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .discover-grid-box{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.browse-more-button{
+    color: black;
+    background-color: rgb(191, 148, 86);
+    border: none;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-weight: 700;
+}
+.browse-button-box{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+.exhibition-title{
+    color: rgb(166, 150, 13);
+}
+.exhibition-title-2{
+    color: rgb(64, 102, 111);
+}
+.exhibition-description{
+    color: rgb(197, 174, 174);
+    font-weight: 200;
+    display: flex;
+}
+.text-box{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.discover-image-box{
+    display: flex;
+    justify-content: center;
+}
+.discover-description-box{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: small;
+
+    font-weight: 300;
+}
+.discover-description{
+    margin: 0;
+}
+.headline-text{
+    font-size: 18px;
+}
+.research-description{
+    padding: 0;
+}
