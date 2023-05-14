@@ -14,10 +14,20 @@ nav,
     position: absolute;
     z-index: 1000;
     right: 0;
+    left: 0;
+
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(191, 148, 86);
+    padding-top: 10px;
+
 }
 
 nav a {
     display: block;
+}
+nav a:hover{
+    text-decoration: underline;
 }
 @media (min-width: 900px) {
     nav {
@@ -93,6 +103,9 @@ footer{
 .footer-nav{
     text-decoration: none;
     color: rgb(191, 148, 86);
+}
+.footer-nav:hover{
+    text-decoration: underline;
 }
 .highlighted-info{
     color: rgb(7, 206, 170);

@@ -60,7 +60,8 @@
     margin-right: 10px;
 
     font-weight: 300;
-    font-size: medium;
+    font-size: large;
+    font-weight: 500;
 
     border: none;
     border-radius: 15px;
@@ -71,10 +72,9 @@
 .discover-grid-box{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,400px));
-    justify-content: space-between;
     justify-content: center;
     align-items: center;
-    column-gap: 40px;
+    align-self: center;
     row-gap: 40px;
 }
 .headline-text-box{
@@ -82,7 +82,16 @@
     justify-content: center;
 }
 .exhibition-image-1{
-    width: 300px;
+    width: 270px;
+    height: 250px;
+}
+.exhibition-image-2{
+    width: 270px;
+    height: 250px;
+}
+.exhibition-image-3{
+    width: 250px;
+    height: 300px;
 }
 h1{
     color: white;
@@ -113,7 +122,7 @@ h2{
     padding-left: 10px;
     padding-right: 10px;
 }
-@media (max-width:600px){
+@media (max-width:700px){
     .exhibition-box{
         grid-template-columns: 1fr;
         max-width: 300px;
@@ -151,6 +160,16 @@ h2{
     padding-bottom: 10px;
 
     font-weight: 700;
+}
+.home-button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.browse-more-button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .browse-button-box{
     display: flex;

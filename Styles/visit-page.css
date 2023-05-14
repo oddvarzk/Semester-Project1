@@ -1,0 +1,21 @@
+.visit-image{
+    width: 500px;
+    height: 150px;
+    
+    padding-top: 25px;
+}
+h1{
+    color: rgb(7, 206, 170);
+}
+.visit-grid{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    column-gap: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 30px;
+}
+p{
+    color: white;
+}
