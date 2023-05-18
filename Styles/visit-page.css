@@ -6,6 +6,7 @@
 }
 h1{
     color: rgb(7, 206, 170);
+    font-weight: 300;
 }
 .visit-grid{
     display: flex;
@@ -18,4 +19,46 @@ h1{
 }
 p{
     color: white;
+}
+@media (max-width:900px){
+    .visit-grid{
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 20px;
+    }
+}
+@media (max-width:700px){
+    .visit-grid{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .visit-image{
+        width: 300px;
+    }
+}
+button{
+    background-color: rgb(191, 148, 86);
+    border: none;
+    border-radius: 15px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+    font-size: large;
+
+    margin-right: 25px;
+}
+button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.info-headline{
+    color: rgb(7, 206, 170);
+    font-weight: 500;
+    font-size: medium;
+}
+p{
+    font-weight: 300;
 }

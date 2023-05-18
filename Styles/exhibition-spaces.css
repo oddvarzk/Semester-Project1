@@ -1,0 +1,79 @@
+.exhibition-spaces-top-image-box{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.top-image{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+h1{
+    position: absolute;
+    font-weight: 300;
+}
+.exhibition-spaces-h1-box{
+    display: flex;
+    justify-content: center;
+}
+.exhibition-image{
+    width: 230px;
+    height: 230px;
+}
+.exhibition-box{
+    display: flex;
+    color: white;
+    background-color: rgb(41, 40, 35);
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+@media (max-width:900px){
+    .exhibition-box{
+        display: grid;
+        grid-template-rows: 1fr;
+
+        padding-top: 50px;
+    }
+    .exhibition-image-box{
+        display: flex;
+        justify-content: center;
+    }
+    .exhibition-description{
+        display: flex;
+        justify-content: center;
+    }
+    .exhibition-headline{
+        display: flex;
+        justify-content: center;
+    }
+}
+.exhibition-headline{
+    display: flex;
+    column-gap: 20px;
+}
+.exhibition-description{
+    display: block;
+    font-weight: 300;
+}
+.info-box{
+    padding-left: 20px;
+}
+.exhibition-spaces-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.first-headline{
+    color: rgb(166, 150, 13);
+    font-size: 20px;
+}
+.second-headline{
+    color: rgb(64, 102, 110);
+    font-size: 20px;
+}
