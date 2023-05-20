@@ -50,3 +50,18 @@ h2{
     font-weight: 300;
     color: white;
 }
+@media (max-width:600px){
+    .special-events-box{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .image-box{
+        display: flex;
+        justify-content: center;
+    }
+    .headline-box{
+        display: flex;
+        justify-content: center;
+    }
+}

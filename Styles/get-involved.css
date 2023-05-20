@@ -1,8 +1,65 @@
 .h1-box{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 h1{
     color: white;
     font-weight: 300;
+}
+.get-involved-image{
+    height: 220px;
+    width: 250px;
+}
+.get-involved-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.get-involved-box{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 40, 35);
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.info-description{
+    font-weight: 100;
+    color: white;
+    margin-right: 25px;
+}
+.info-headline{
+    display: flex;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgb(191, 148, 86);
+    
+    font-size: large;
+}
+@media(max-width:800px){
+.get-involved-box{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 25px;
+}
+.info-headline{
+    display: flex;
+    justify-content: center;
+}
+.image-box{
+    display: flex;
+    justify-content: center;
+}
+.info-description{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
 }
