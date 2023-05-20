@@ -1,8 +1,76 @@
 .h1-box{
     display: flex;
-    justify-content: center;
+    margin-top: 20px;
+
+    padding-left: 15%;
+    padding-right: 15%;
 }
 h1{
     font-weight: 300;
     color: white;
+}
+.contact-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.regular-input{
+    width: 272px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    background-color: rgb(41, 40, 35);
+    color: white;
+
+    border-style: solid;
+}
+.large-input{
+    height: 100px;
+    width: 280px;
+
+    background-color: rgb(41, 40, 35);
+    border-style: solid;
+    color: white;
+}
+button{
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(191, 148, 86);
+    border-radius: 3px;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(202, 172, 130);
+}
+button:active{
+    background-color: rgb(134, 184, 59);
+}
+.contact-grid{
+    padding-left: 15%;
+    padding-right: 15%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+}
+.info-headline{
+    color: rgb(7, 206, 170);
+}
+@media (max-width:1000px){
+    .contact-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+p{
+    color: white;
+    font-weight: 300;
 }
