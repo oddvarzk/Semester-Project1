@@ -10,6 +10,7 @@
 h1{
     position: absolute;
     font-weight: 300;
+    color: rgb(13, 34, 24);
 }
 .exhibition-spaces-h1-box{
     display: flex;
@@ -74,6 +75,6 @@ h1{
     font-size: 20px;
 }
 .second-headline{
-    color: rgb(64, 102, 110);
+    color: rgb(113, 187, 202);
     font-size: 20px;
 }
