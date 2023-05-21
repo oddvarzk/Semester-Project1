@@ -17,6 +17,9 @@ h1{
    height: 1px;
    overflow: hidden;
 }
+span{
+    display: none;
+}
 .contact-box{
     display: grid;
     grid-template-columns: 1fr;
