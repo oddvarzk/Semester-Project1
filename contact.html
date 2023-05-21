@@ -38,10 +38,18 @@
 
     <div class="contact-grid">
         <div class="contact-box">
-            <input class="regular-input" type="text" placeholder="First and last name">
-            <input class="regular-input" type="email" placeholder="E-mail">
-            <input class="regular-input" type="text" placeholder="Reason for contacting us">
-            <input class="large-input" type="text" placeholder="Message... (max 300 words.)">
+            <label for="Name" class="sr-only">Name</label>
+            <input class="regular-input" type="text" placeholder="First and last name" id="Name">
+
+            <label for="E-mail" class="sr-only">E-mail</label>
+            <input class="regular-input" type="email" placeholder="E-mail" id="E-mail">
+
+            <label for="Contacting-reason" class="sr-only">Contacting reason</label>
+            <input class="regular-input" type="text" placeholder="Reason for contacting us" id="Contacting reason">
+
+            <label for="Message" class="sr-only">Message</label>
+            <input class="large-input" type="text" placeholder="Message... (max 300 words.)" id="Message">
+            
             <button>Send Message</button>
         </div>
 
