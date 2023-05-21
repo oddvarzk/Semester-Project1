@@ -11,15 +11,13 @@ h1{
 }
 .sr-only{
    position: absolute;
-   left: -10000px;
+   left: -1000px;
    top: auto;
    width: 1px;
    height: 1px;
    overflow: hidden;
 }
-span{
-    display: none;
-}
+
 .contact-box{
     display: grid;
     grid-template-columns: 1fr;
@@ -29,7 +27,7 @@ span{
     margin-top: 30px;
 }
 .regular-input{
-    width: 272px;
+    width: 200px;
     padding-left: 10px;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -40,11 +38,19 @@ span{
     border-style: solid;
 }
 .large-input{
-    height: 100px;
+    padding-bottom: 100px;
+    padding-top: 6px;
+    padding-left: 10px;
     width: 280px;
 
     background-color: rgb(41, 40, 35);
     border-style: solid;
+    color: white;
+}
+.regular-input::placeholder{
+    color: white;
+}
+.large-input::placeholder{
     color: white;
 }
 button{
