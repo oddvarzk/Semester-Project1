@@ -4,6 +4,7 @@
     justify-content: center;
 
     position: static;
+    margin-bottom: 60px;
 }
 .front-page-image{
     width: 100%;
@@ -75,6 +76,10 @@
     color: black;
     background-color: rgb(191, 148, 86);
 }
+.home-button-text{
+    text-decoration: none;
+    color: black;
+}
 .discover-grid-box{
     display: flex;
     grid-template-columns: repeat(auto-fit,minmax(400px,400px));
@@ -83,6 +88,8 @@
     align-self: center;
     row-gap: 40px;
     column-gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 .headline-text-box{
     display: flex;
@@ -174,6 +181,9 @@ h2{
 
     font-weight: 700;
 }
+.browse-more-button-text{
+    text-decoration: none;
+}
 .home-button:hover{
     cursor: pointer;
     background-color: rgb(255, 255, 255);
@@ -189,9 +199,11 @@ h2{
     justify-content: center;
 
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 .exhibition-title{
     color: rgb(166, 150, 13);
+    font-size: large;
 }
 .exhibition-title-2{
     color: rgb(128, 196, 211);
@@ -202,7 +214,6 @@ h2{
     display: flex;
 }
 .text-box{
-    margin-left: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -225,4 +236,7 @@ h2{
 }
 .research-description{
     padding: 0;
+}
+.h2-box{
+    margin-top: 50px;
 }
