@@ -22,7 +22,9 @@ nav,
     padding-top: 10px;
 
 }
-
+span{
+    display: none;
+}
 nav a {
     display: block;
 }
