@@ -1,4 +1,4 @@
-# Cross Course Project Rainydays 
+# Semester Project Community Science Museum Website
 
 ![image](https://raw.githubusercontent.com/oddvarzk/Portofolio1/main/images/Museum.png)
 
